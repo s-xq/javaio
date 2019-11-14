@@ -20,6 +20,8 @@ public class CompresserAdapter {
             throwable.printStackTrace();
         }
         long endTime = System.currentTimeMillis();
-        System.out.println(String.format("Consume Time: %s", endTime - beginTime));
+        System.out.println(String.format("Consume Time: %s\t%sms",
+                compresser.getClass().getSimpleName(),
+                endTime - beginTime));
     }
 }
