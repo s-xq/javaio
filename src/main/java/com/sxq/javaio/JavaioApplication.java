@@ -12,6 +12,7 @@ public class JavaioApplication {
                 new BufferCompresser(),
                 new ChannelCompresser(),
                 new MappedCompresser(),
+                new PipeMappedCompresser(),
                 new PipeCompresser()
         };
         CompressParam compressParam = new CompressParam();
